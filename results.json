@@ -1,0 +1,32 @@
+[
+  {
+    "query": "What is the main topic of the document?",
+    "results": [
+      {
+        "chunk_text": "The document explains...",
+        "page_number": 1,
+        "score": 0.81
+      }
+    ]
+  },
+  {
+    "query": "Explain embeddings",
+    "results": [
+      {
+        "chunk_text": "Embeddings are vector representations...",
+        "page_number": 2,
+        "score": 0.78
+      }
+    ]
+  },
+  {
+    "query": "What is LangChain used for?",
+    "results": [
+      {
+        "chunk_text": "LangChain is a framework...",
+        "page_number": 3,
+        "score": 0.84
+      }
+    ]
+  }
+]
