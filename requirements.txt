@@ -1,10 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+
 langchain
 langchain-community
 langchain-core
 langchain-huggingface
+langchain-chroma
 langgraph
+
 chromadb
-fastapi
-uvicorn
 pypdf
 sentence-transformers
