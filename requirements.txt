@@ -13,3 +13,5 @@ langgraph
 chromadb
 pypdf
 sentence-transformers
+
+pytest
