@@ -1,6 +1,5 @@
 # sakhiba_Nestack_Submission
 
-## PDF Vectorization and Similarity Search Pipeline
 # PDF Vectorization and Similarity Search Pipeline
 
 A PDF document vectorization and semantic search pipeline built with **LangChain, LangGraph, Hugging Face embeddings, ChromaDB, and FastAPI**.
