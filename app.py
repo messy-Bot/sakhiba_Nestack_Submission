@@ -4,18 +4,26 @@ from pydantic import BaseModel, Field
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-from config import COLLECTION_NAME, EMBEDDING_MODEL, VECTORSTORE_DIR
+from config import (
+    VECTORSTORE_DIR,
+    COLLECTION_NAME,
+    EMBEDDING_MODEL,
+)
 
 
 app = FastAPI(
     title="PDF Vector Search API",
-    description=(
-        "Similarity search over PDF document chunks using "
-        "Hugging Face embeddings and ChromaDB."
-    ),
+    description="Similarity search over PDF document chunks using Chroma.",
     version="1.0.0",
 )
-
+    version="1.0.0",
+)
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "message": "PDF Vector Search API is running."
+    }
 
 class QueryRequest(BaseModel):
     query: str = Field(
