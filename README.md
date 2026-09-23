@@ -27,22 +27,22 @@ The project intentionally does **not** use an LLM or a retrieval chain.
 ```text
 PDF
  |
-v
+ v
 PyPDFLoader
  |
-v
+ v
 RecursiveCharacterTextSplitter
  |
-v
+ v
 HuggingFace Embeddings
  |
-v
+ v
 ChromaDB
  |
-v
+ v
 FastAPI /query
  |
-v
+ v
 Top-K relevant chunks + page number + score
 ```
 
