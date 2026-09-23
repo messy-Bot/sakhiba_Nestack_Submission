@@ -1,0 +1,14 @@
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+.env
+
+.ipynb_checkpoints/
+
+vectorstore/
+
+.DS_Store
+Thumbs.db
