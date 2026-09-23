@@ -1,12 +1,1 @@
-[
-  {
-    "query": "What is the main topic of the document?",
-    "results": [
-      {
-        "chunk_text": "The document explains...",
-        "page_number": 1,
-        "score": 0.81
-      }
-    ]
-  }
-]
+[]
