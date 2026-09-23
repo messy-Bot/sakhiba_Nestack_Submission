@@ -1,11 +1,74 @@
-PDF Vectorization and Similarity Search Demo
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-This sample document demonstrates a PDF processing pipeline.
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260923083903+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260923083903+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 515
+>>
+stream
+Gat=fd;RJf&B<W)=+$(b"=4O$jcuqu67UF1,2R8.d<LT:b]YJU?dC`L-U:VX-;02CGJ<s&T2))AUS_sFJVsa$edAEFo)l!r<+n2"C1[u4Ff;AL/6+<g=>@e3FsbPb;^Zj#V+V-f0m>(ignS%*WiD;"UG9MiXmqt:jFd7sa`n&2)E5[)Sq9Op\7#_]LD=$CL?8uj3Ssbg6&<7sq2;7Zeu,J34dB\2->dn&RQ$doLh):4Tm]"+FpV?l\sNOFNZ_ld+o%@51iA5f%,;fBM^-o]0^m1`0\MY&C&"YjH;?TiLXVRL)oSF/.3e<."QPZ#hf7jo(c#+GNUC,1g;"BqDR('pDcpj)OAtp58l2gm@sc.d)mLKO?1=.\(XSE1QK!DT("LL@?;jOiY.nL#G=GBZ5)^I&_+kMI'F>O$"AWHG;>r`I-qCW%UV?'ugaKJF6./&5gojCfZbVdo+'uE)SAFZ)(rdun)fj]VNm)rroBgUlTporR97c\5V$+$UI/TB;Zem*Vp3?~>endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
+trailer
+<<
+/ID 
+[<935d635f0146cc5a860a2597c6d7e0d3><935d635f0146cc5a860a2597c6d7e0d3>]
+% ReportLab generated PDF document -- digest (opensource)
 
-The pipeline loads PDF pages, splits text into overlapping chunks,
-creates vector embeddings, and stores them in a ChromaDB database.
-
-FastAPI provides a query endpoint that returns relevant text chunks,
-page numbers, and vector search scores.
-
-The project uses LangChain and LangGraph and does not use an LLM.
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+1526
+%%EOF
